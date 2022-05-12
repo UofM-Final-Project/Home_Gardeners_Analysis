@@ -28,5 +28,6 @@ Bree presented a provisional machine learning model that stands in for the final
 
 ## Database
 Chris presented a provisional database that stands in for the final database and accomplished the following:
+- I think all we need is times the temperature was less than 32 degrees farenheight and the locations where? Is that all?
 - Sample data that mimics the expected final database structure or schema
 - Draft machine learning module is connected to the provisional database
