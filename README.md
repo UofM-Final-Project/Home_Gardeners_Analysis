@@ -5,8 +5,7 @@ Pull historical weather data, geoJSON zip code data, and elevations and pinpoint
 Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data, geoJSON zip code data, and elevations and pinpoint last frost dates in order to build a model to predict future frost dates in the region and possibly by weather pattern.  We were able to find historical data available on weather.gov site in a GeoJSON format here: https://www.weather.gov/documentation/services-web-api.  The National Weather Service (NWS) API allows developers access to critical forecasts, alerts, and observations, along with other weather data. The API was designed with a cache-friendly approach that expires content based upon the information life cycle. The API is based upon of JSON-LD to promote machine data discovery.
 
 ### Questions To Answer
-- What has been the historical frost dates?
-- How accurate has been previous predictions?
+- What has been the historical average frost dates?
 - Is there an accurate way to predict the last frost date?
 - Does previous temperatures or precipitation have an impact on final frost date?
 
