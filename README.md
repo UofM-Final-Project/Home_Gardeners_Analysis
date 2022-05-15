@@ -22,11 +22,11 @@ Amy inquired with a horticulturist who runs a decent sized FB group for Minnesot
 
 ## Machine Learning Model
 Bree presented a provisional machine learning model that stands in for the final machine learning model and accomplished the following:
-- Here are 2 .ipynb machine learning files that will be used in predicting frost.
+- There are 2 .ipynb machine learning files in the machine_learning folder that will be used in predicting frost.
 - These are both used as a provisional machine learning models and will be refactored as project progresses.
 - Both programs read in example csv file from a resources folder to test if they are working, but can change to read in from another source.
 - Used logistic regression for categorical, predicts what makes a day have frost and chance there will be a day of frost after a specific day.
-- Future improvements will use linear regression to track and try to predict the last day of frost for the spring.
+- Future improvements will use linear regression to track and try to predict the last day of frost for the spring as well as combining all machine learning files into one .py file.
 
 #### Each Program Specifics
 - LogisReg_chance_day_is_frost.ipynb -> Outcome which day will have frost, 1 means there was frost 0 means no frost
