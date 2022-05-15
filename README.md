@@ -42,7 +42,7 @@ We'll be utilizing several Python and several of the available packages to acces
  - Pandas
  - Requests
  - JSON 
- - ML modules
+ - sklearn and other ML modules
  - Numpy
  - Statistics
  - matplotlib
