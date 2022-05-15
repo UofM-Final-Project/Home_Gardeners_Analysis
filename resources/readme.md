@@ -1,10 +1,10 @@
 # Data Sources Notes
 
-We can pull data from NOAA.GOV and RCC-ACIS.ORG.  NOAA has CSV or JSON files we download manually for each station.  The CSV files can be found at 
+We can pull data from NOAA.GOV and RCC-ACIS.ORG.  
 
 ## RCC-ACIS.ORG Website - http://www.rcc-acis.org/docs_webservices.html
 
-This has downloads for pulling station data in a geographic area.  You can limit the station list based on what they record (tempertures, percipitation, etc.).  There are very good examples of the parameters to send and example code on this page.
+This has API calls for pulling station data via JSON in a geographic area.  You can limit the station list based on what they record (tempertures, percipitation, etc.).  There are very good examples of the parameters to send and example code on this page.
 
 - **StnMeta** web services call returns metadata for a station or stations meeting the specified criteria.  FIPS Codes for 7 county metro:  [27053,27037,27019,27139,27123,27163,27003]
 
