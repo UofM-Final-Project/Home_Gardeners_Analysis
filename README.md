@@ -29,3 +29,29 @@ Bree presented a provisional machine learning model that stands in for the final
 Chris presented a provisional database that stands in for the final database and accomplished the following:
 - Sample data that mimics the expected final database structure or schema
 - Draft machine learning module is connected to the provisional database
+
+## Technologies Overview
+
+### Data Sources
+
+The primary data source for the project will be historical weather data available via API in a JSON format at http://www.rcc-acis.org/docs_webservices.html.  We've prototyped a call to the MultiStnData subset and retrieved data available at https://github.com/UofM-Final-Project/Home_Gardeners_Analysis/tree/main/resources/example_data.json.
+
+### Data Import, Processing and ML Application
+
+We'll be utilizing several Python and several of the available packages to access, process, export and apply machine learning to our data.  The list includes but is not limited to 
+ - Pandas
+ - Requests
+ - JSON 
+ - ML modules
+ - Numpy
+ - Statistics
+ - matplotlib
+ - sqlalchemy
+
+### Data Storage
+
+We will be utilizing a PostgreSQL Database on AWS for data storage.  
+
+### Presentation
+
+We are exploring options for presentation of our data.  We will likely use JavaScript and possibly Tableau, Mapbox and Leaflet to present our data.  The JavaScript website could be hosted on GitHub if we only utilize images but we'll need to find a different host if we want to use interactive mapbox and leaflet applications. 
