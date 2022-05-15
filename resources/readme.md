@@ -1,6 +1,6 @@
 # Data Sources Notes
 
-We can pull data from NOAA.GOV and RCC-ACIS.ORG.  
+We can pull data from RCC-ACIS.ORG and NOAA.GOV.  We will likely only use RCC-ACIS.ORG for our final data.  The other site is a convenient way for the team to download practice data while we build out the python/pandas script to import, clean and export the weather data.
 
 ## RCC-ACIS.ORG Website - http://www.rcc-acis.org/docs_webservices.html
 
