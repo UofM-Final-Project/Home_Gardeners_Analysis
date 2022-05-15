@@ -2,12 +2,12 @@
 Pull historical weather data, geoJSON zip code data, and elevations and pinpoint last frost dates and build a model to predict future dates possibly by weather pattern.
 
 ## Project Description
-Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data, geoJSON zip code data, and elevations and pinpoint last frost dates in order to build a model to predict future frost dates in the region and possibly by weather pattern.  We were able to find historical data available on weather.gov site in a GeoJSON format here: https://www.weather.gov/documentation/services-web-api.  The National Weather Service (NWS) API allows developers access to critical forecasts, alerts, and observations, along with other weather data. The API was designed with a cache-friendly approach that expires content based upon the information life cycle. The API is based upon of JSON-LD to promote machine data discovery.
+Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data and observation station data to pinpoint last frost dates in order to build a model to predict future last frost dates in the region based.  We were able to find historical data available http://www.rcc-acis.org/docs_webservices.html in a JSON format.  As documented on their website, "The Applied Climate Information System (ACIS) was developed and is maintained by the NOAA Regional Climate Centers (RCCs). It was designed to manage the complex flow of information from climate data collectors to the end users of climate data information. The main purpose of ACIS is to alleviate the burden of climate information management for people who use climate information to make management decisions."  
 
 ### Questions To Answer
-- What has been the historical average frost dates?
+- What has been the historical average last frost date?
 - Is there an accurate way to predict the last frost date?
-- Does previous temperatures or precipitation have an impact on final frost date?
+- Do previous temperatures and/or precipitation levels have an impact on last frost date in the spring?
 
 ### Group Communication Protocols
 - We communicated regularly using Slack and held weekly meeting via Zoom.
