@@ -33,9 +33,8 @@ Bree presented a provisional machine learning model that stands in for the final
 - LogisReg_chance_frost_after_day.ipynb -> Outcome there is a day of frost after specific day 3/5(March 5th) per year, 1 means there was frost 0 means no frost
 
 ## Database
-Chris presented a provisional database that stands in for the final database and accomplished the following:
-- Sample data that mimics the expected final database structure or schema
-- Draft machine learning module is connected to the provisional database
+The schema below illustrates the anticipated shape and content of our database: 
+<img width="614" alt="Screen Shot 2022-05-15 at 10 01 20 PM" src="https://user-images.githubusercontent.com/4724180/168512789-ea1bafb5-7e60-4b5f-aec8-4ee9d1b10545.png">
 
 ## Technologies Overview
 
