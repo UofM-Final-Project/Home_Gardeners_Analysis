@@ -12,7 +12,7 @@ Amy inquired with a horticulturist who runs a decent sized FB group for Minnesot
 ### Group Communication Protocols
 - We communicated regularly using Slack and held weekly meeting via Zoom.
 - We shared resources, research, code snippets and role updates via slack and github.
-- We prepared project tracker to monitor completion of tasks and schedule due dates.
+- We prepared [Project Tracker](https://docs.google.com/spreadsheets/d/1ZoLBoF6YWwwI8pchYqjiukvkFyxpKM1p/edit?usp=sharing&ouid=114381711604427366207&rtpof=true&sd=true) to monitor completion of tasks and schedule due dates.
 
 #### Team Roles
 - Will (Square): Responsible for the repository.
