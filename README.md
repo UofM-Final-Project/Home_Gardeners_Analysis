@@ -15,10 +15,20 @@ Amy inquired with a horticulturist who runs a decent sized FB group for Minnesot
 - We prepared [Project Tracker](https://docs.google.com/spreadsheets/d/1ZoLBoF6YWwwI8pchYqjiukvkFyxpKM1p/edit?usp=sharing&ouid=114381711604427366207&rtpof=true&sd=true) to monitor completion of tasks and schedule due dates.
 
 #### Team Roles
-- Will (Square): Responsible for the repository.
-- Bree (Triangle): Created a mockup of the machine learning model. Bree created a diagram that explained how it will work concurrently with the rest of the project steps.
-- Chris (Circle): Created a mockup of the database with a set of sample data data. Chris ensured the database worked seamlessly with the rest of the project.
-- Amy (X Role): Decided which technologies will be used for each step of the project.
+##### Will (Square):
+- Responsible for the repository.  
+- Submitted code for their machine learning model, as well as the following:
+- Describe preliminary data preprocessing 
+- Describe the preliminary feature engineering and preliminary feature selection, including the decision-making process 
+- Describe how data was split into training and testing sets 
+- Explained model choice, including limitations and benefits
+##### Bree (Triangle): 
+- Created a mockup of the machine learning model. Bree created a diagram that explained how it will work concurrently with the rest of the project steps.
+##### Chris (Circle):
+- Created a mockup of the database with a set of sample data data. 
+- Chris ensured the database worked seamlessly with the rest of the project.
+##### Amy (X Role): 
+- Decided which technologies will be used for each step of the project.
 
 ## Machine Learning Model
 Bree presented a provisional machine learning model that stands in for the final machine learning model and accomplished the following:
