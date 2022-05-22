@@ -9,6 +9,20 @@ Amy inquired with a horticulturist who runs a decent sized FB group for Minnesot
 - Is there an accurate way to predict the last frost date?
 - Do previous temperatures and/or precipitation levels have an impact on last frost date in the spring?
 
+## Data Exploration Phase
+In efforts to understand the historical weather data available within the dataset and identify which values would be ideal for the Machine Learning Model, we pulled in data in JSON and CSV formats. The dataset contains 7 counties for 21 years with 13597 rows of weather results per CSV, each containing the following: Dates, Average Degrees, Maximum Degrees, Minimum Degrees, Precipitation, Snowfall and Snow depth.  We transformed and cleaned data using Python in Jupyter Notebook.  
+#### We created 3 main Data frames and wrote them to CSV:
+- Station_Data.csv – Added columns with average freeze dates
+- Station_Year_Data.csv – Table with Primary Key of Station & Year.  Completed several calculations about the year to help with Graphing/Charting.
+- Observation_Data.csv – We flag if the day has freeze and if the day goes above freezing.  Separated dates into day, month, year, and day of year. 
+
+## Description of the Analysis Phase
+The analysis phase consisted of creating 2 tables using PGadmin to prepare our data for the machine learning model. The tables created are the ‘Observations’ and 'Stations'.  The combined SQL query was exported as CSV file and used to train and test our machine learning model.  
+
+Using Jupyter Notebook, the CSV file was imported, Features (X) was separated from the Target (y).  After we split our data into training and testing, we used a Logistic Regression Machine Learning Model to make predictions for the data using 1 for “Frost” and 0 for “No Frost”.  
+
+Accuracy score tests was ran multiple times with different iteration of the initial CSV file to find the most accurate score. Our initial accuracy score was 65% but after iterations, our model's accuracy increased to 99%. 
+
 ### Group Communication Protocols
 - We communicated regularly using Slack and held weekly meeting via Zoom.
 - We shared resources, research, code snippets and role updates via slack and github.
@@ -67,3 +81,16 @@ We will be utilizing a PostgreSQL Database on AWS for data storage.
 ### Presentation
 
 We are exploring options for presentation of our data.  We will likely use JavaScript and possibly Tableau, Mapbox and Leaflet to present our data.  The JavaScript website could be hosted on GitHub if we only utilize images but we'll need to find a different host if we want to use interactive mapbox and leaflet applications. 
+
+## Dashboard
+#### Storyboard for Dashboard
+The purpose of the dashboard is to help users predict the last frost date based on changes in temperature, precipitation, and snowfall. 
+The dashboard will consist of three different areas:
+- Overview of the Weather Map (Including layers for temperatures, precipitation, snowfall, and last frost date)
+- Trend line showing the historical pattern of frost dates for last 21 years (including trend line for temperatures, precipitation, and snowfall)
+- Correlation visual displaying the relationship or impact of temperatures/precipitation/snowfall on last frost date results (Including accuracy score, etc)
+#### Description of the Dashboard Tool(s)
+The main tool used to create the dashboard will be a combination of Flask, Tableau, Mapbox and Leaflet. Within Tableau we will use interactive geographical map, line charts, and correlation map to create the dashboard.
+#### Description of interactive element(s)
+By using Tableau and posting the dashboard on the Tableau public website, viewers can visit the url and interact with geographical map, trend lines and correlation visuals.
+Users will have the capability to enter various temperatures, precipitation, and snowfall numbers to predict last frost dates for each county. 
