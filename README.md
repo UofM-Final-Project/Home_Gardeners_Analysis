@@ -1,6 +1,8 @@
 # Frost_Date_Analysis
 Pull historical weather data, geoJSON zip code data, and elevations and pinpoint last frost dates and build a model to predict future dates possibly by weather pattern.
 
+[Frost Date Analysis Google Slide](https://docs.google.com/presentation/d/1R1opOJd2KfH-3Pl5fK3_diW3ohS4WUmtNrZGHm76p1Y/edit?usp=sharing)
+
 ## Project Description
 Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data and observation station data to pinpoint last frost dates in order to build a model to predict future last frost dates in the region based.  We were able to find historical data available http://www.rcc-acis.org/docs_webservices.html in a JSON format.  As documented on their website, "The Applied Climate Information System (ACIS) was developed and is maintained by the NOAA Regional Climate Centers (RCCs). It was designed to manage the complex flow of information from climate data collectors to the end users of climate data information. The main purpose of ACIS is to alleviate the burden of climate information management for people who use climate information to make management decisions."  
 
