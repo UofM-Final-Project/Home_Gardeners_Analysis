@@ -1,0 +1,62 @@
+﻿Table / View,Column,Feature,Description
+observation,station_uid,No,Station Unique Identifier
+observation,date,Yes,Calendar Date
+observation,maxt,Yes,Max Temperature
+observation,mint,Yes,Min Temperature 
+observation,pcpn,Yes,Percipitation 
+observation,snow,Yes,Snow Accumulation 
+observation,snwd,Yes,Snow Depth
+observation,avgt,Yes,Average Temperature
+observation,freeze_day,Yes,Day was at or Below 32degrees Yes/No (1/0)
+observation,above_freezing,Yes,Day had temp above Freezing Yes/No (1/0)
+observation,obs_year,Yes,Date Part - Year
+observation,obs_month,Yes,Date Part - Month
+observation,obs_day,Yes,Date Part - Day of Month
+observation,obs_dayofyear,Yes,Date Part - Day of Year
+observation,maxt_7_day,Yes,Max Temperature Previous 7 days
+observation,mint_7_day,Yes,Min Temperature Previous 7 Days
+observation,avgt_7_day,Yes,Average Temperature Previous 7 Days
+observation,precip_7_day,Yes,Percipitation  Previous 7 Days
+observation,obs_count_7_day,No,Number of Days out of 7 that had records in the Dataset 
+observation,maxt_30_day,Yes,Max Temperature Previous 30 days
+observation,mint_30_day,Yes,Min Temperature Previous 30 Days
+observation,avgt_30_day,Yes,Average Temperature Previous 30 Days
+observation,precip_30_day,Yes,Percipitation  Previous 30 Days
+observation,obs_count_30_day,No,Number of Days out of 30 that had records in the Dataset 
+station,station_uid ,No,Station Unique Identifier
+station,name,No,Station Name
+station,county,No,Station County
+station,state,No,Station State
+station,latitude,Yes,Station Latititude
+station,longitude,Yes,Station Longitude
+station,climdiv,No,Station Climate Division
+station,sid_1,No,Station ID for other Reference Lists
+station,sid_2,No,Station ID for other Reference Lists
+station,sid_3,No,Station ID for other Reference Lists
+station,sid_4,No,Station ID for other Reference Lists
+station,sid_5,No,Station ID for other Reference Lists
+station,sid_6,No,Station ID for other Reference Lists
+station,sid_7,No,Station ID for other Reference Lists
+station,sid_8,No,Station ID for other Reference Lists
+station,avg_last_freeze_dayofyear,Yes,Average last freeze day of year in current dataset
+station,avg_last_freeze_mm_dd,No,Month/Day format of the average last freeze day of yar
+station,median_last_freeze_dayofyear,Yes,Median Last Freeze day of year in current dataset
+station,median_last_freeze_mm_dd,No,Month/Day format of the median last freeze day of yar
+station,years_included,No,Number of years included in the dataset
+station,count_at_or_before_avg_last_freeze,Yes,Number of times the station had a freeze that was earlier or on the average last freeze date
+station,count_later_than_avg_last_freeze,Yes,Number of times the station had a freeze after the average last freeze date.
+station_yearly,station_uid,No,Station Unique Identifier
+station_yearly,year,No,Year calculations in the row are based on
+station_yearly,coldest_day,No,Coldest date of the year for the current station/year.
+station_yearly,coldest_dayofyear,Yes,Coldest dayofyear value for the coldest day.
+station_yearly,hottest_day,No,Hottest date of the year for the current station/year.
+station_yearly,hottest_dayofyear,Yes,Hottest dayofyear value for the coldest day.
+station_yearly,last_freeze_date,No,Last freeze date for the station/year
+station_yearly,last_freeze_dayofyear,Yes,last freeze dayofyear for the station/year
+station_yearly,first_freeze_date,No,First freeze date for the station/year
+station_yearly,first_freeze_dayofyear,Yes,First freeze datofyear for the station/year
+station_yearly,observations_recorded_april_to_may,No,Number of observations in total for the year (365 or less)
+v_days_until_freeze_calcs_0_to_180_days,station_uid,No,Station Unique Identifier
+v_days_until_freeze_calcs_0_to_180_days,date,No,Observation Date (use to join back to the observation table)
+v_days_until_freeze_calcs_0_to_180_days,days_until_avg_freeze_dayofyear,Yes,Number of days between observation date and the station's average last freeze date
+v_days_until_freeze_calcs_0_to_180_days,days_until_current_year_last_freeze_dayofyear,Yes,Number of days between observation date and the current year's last freeze date for that station.
