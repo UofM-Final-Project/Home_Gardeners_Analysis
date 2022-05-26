@@ -30,14 +30,6 @@ station,state,No,Station State
 station,latitude,Yes,Station Latititude
 station,longitude,Yes,Station Longitude
 station,climdiv,No,Station Climate Division
-station,sid_1,No,Station ID for other Reference Lists
-station,sid_2,No,Station ID for other Reference Lists
-station,sid_3,No,Station ID for other Reference Lists
-station,sid_4,No,Station ID for other Reference Lists
-station,sid_5,No,Station ID for other Reference Lists
-station,sid_6,No,Station ID for other Reference Lists
-station,sid_7,No,Station ID for other Reference Lists
-station,sid_8,No,Station ID for other Reference Lists
 station,avg_last_freeze_dayofyear,Yes,Average last freeze day of year in current dataset
 station,avg_last_freeze_mm_dd,No,Month/Day format of the average last freeze day of yar
 station,median_last_freeze_dayofyear,Yes,Median Last Freeze day of year in current dataset
@@ -46,7 +38,7 @@ station,years_included,No,Number of years included in the dataset
 station,count_at_or_before_avg_last_freeze,Yes,Number of times the station had a freeze that was earlier or on the average last freeze date
 station,count_later_than_avg_last_freeze,Yes,Number of times the station had a freeze after the average last freeze date.
 station_yearly,station_uid,No,Station Unique Identifier
-station_yearly,year,No,Year calculations in the row are based on
+station_yearly,obs_year,No,Year calculations in the row are based on
 station_yearly,coldest_day,No,Coldest date of the year for the current station/year.
 station_yearly,coldest_dayofyear,Yes,Coldest dayofyear value for the coldest day.
 station_yearly,hottest_day,No,Hottest date of the year for the current station/year.
