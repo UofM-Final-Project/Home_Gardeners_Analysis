@@ -105,7 +105,7 @@ Next, we wanted to show how using one feature can change predicting a day of the
 
 - Linear_min_vs_avg.ipynb -> Creates two models using linear regression to show the difference between average temp and minimum temp with their corresponding day of the year.
 
-- Linear_Predict_day.ipynb -> Creates model to try and predict the day of the year in which specfic avgerage and minimum temp take place. Since we are looking into freezing conditions, minimum temp should be around freezing temperature between 30 and 32 degrees.
+- Linear_Predict_day.ipynb -> Creates model to try and predict the day of the year in which specific average and minimum temp take place. Since we are looking into freezing conditions, minimum temp should be around freezing temperature between 30 and 32 degrees.
 
 - Logistic_classify_day.ipynb -> Creates model to classify a day with frost based on past weather conditions as its features.
 
