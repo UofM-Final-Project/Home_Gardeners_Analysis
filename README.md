@@ -135,14 +135,14 @@ We will be utilizing a PostgreSQL Database for data storage.
 We are exploring options for presentation of our data.  We will likely use JavaScript and possibly Tableau, Mapbox and Leaflet to present our data.  The JavaScript website could be hosted on GitHub if we only utilize images but we'll need to find a different host if we want to use interactive mapbox and leaflet applications. 
 
 ## Dashboard
+
 #### Storyboard for Dashboard
-The purpose of the dashboard is to help users predict the last freeze date based on changes in temperature, precipitation, and snowfall. 
-The dashboard will consist of three different areas:
-- Overview of the Weather Map (Including layers for temperatures, precipitation, snowfall, and last frost date)
-- Trend line showing the historical pattern of frost dates for last 21 years (including trend line for temperatures, precipitation, and snowfall)
-- Correlation visual displaying the relationship or impact of temperatures/precipitation/snowfall on last frost date results (Including accuracy score, etc)
+The purpose of the dashboard is to help users predict if there will be a frost event in a location on a specific date. The dashboard will consist of three different areas:
+Overview of the Weather Map (Including layers for temperatures, precipitation, snowfall, and last frost date)
+Trend line showing the pattern of frost dates for last 21 years (including trend line for temperatures, precipitation, and snowfall)
+Correlation visual displaying the relationship or impact of temperatures/precipitation/snowfall on last frost date results (Including accuracy score, etc)
+The next slide provides an example of what we expect our dashboard to look like. Our tool will be in English and take user input, but otherwise we want it to look and behave very much like the example, which can also be found here: https://public.tableau.com/app/profile/merlijn.buit/viz/KNMITemperatures1901-2015AllWeatherStationsfromTheNetherlands/Story1
 #### Description of the Dashboard Tool(s)
-The main tool used to create the dashboard will be a combination of Flask, Tableau, Mapbox and Leaflet. Within Tableau we will use interactive geographical map, line charts, and correlation map to create the dashboard.
+Tableau is giving me a hard time and I’ve not been able to get the map we need with our lat/long data, and I’m making slow progress figuring out what the problem is. I still might refresh myself on mapbox/leaflet and do that instead.
 #### Description of interactive element(s)
-By using Tableau and posting the dashboard on the Tableau public website, viewers can visit the url and interact with geographical map, trend lines and correlation visuals.
-Users will have the capability to enter various temperatures, precipitation, and snowfall numbers to predict last frost dates for each county. 
+Our intention is to allow a user to input a location or a date and our machine learning will return the likelihood of a frost event. Additionally, users will be able interact with our map and graphs to discover historical weather data.
