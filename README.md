@@ -94,5 +94,5 @@ The dashboard will consist of three different areas:
 #### Description of the Dashboard Tool(s)
 The main tool used to create the dashboard will be a combination of Flask, Tableau, Mapbox and Leaflet. Within Tableau we will use interactive geographical map, line charts, and correlation map to create the dashboard.
 #### Description of interactive element(s)
-By using Tableau and posting the dashboard on the Tableau public website, viewers can visit the url and interact with geographical map, trend lines and correlation visuals.
+By not using Tableau and posting the dashboard on the not Tableau public website, viewers can visit the url and interact with geographical map, trend lines and correlation visuals.
 Users will have the capability to enter various temperatures, precipitation, and snowfall numbers to predict last frost dates for each county. 
