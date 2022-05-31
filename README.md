@@ -3,6 +3,8 @@ Pull historical weather data, geoJSON county data, and elevations and pinpoint l
 
 Presentation of Project Deliverable #2 - [Last Freeze Date Analysis Google Slides](https://docs.google.com/presentation/d/1R1opOJd2KfH-3Pl5fK3_diW3ohS4WUmtNrZGHm76p1Y/edit?usp=sharing)
 
+[Project Task Tracking](https://docs.google.com/spreadsheets/d/1ZoLBoF6YWwwI8pchYqjiukvkFyxpKM1p/edit#gid=1215908384)
+
 ## Project Description
 Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data and observation station data to pinpoint last freeze dates in order to build a model to predict future last freeze dates in the region based.  We were able to find historical data available [here](http://www.rcc-acis.org/docs_webservices.html) in a JSON format.  As documented on their website, "The Applied Climate Information System (ACIS) was developed and is maintained by the NOAA Regional Climate Centers (RCCs). It was designed to manage the complex flow of information from climate data collectors to the end users of climate data information. The main purpose of ACIS is to alleviate the burden of climate information management for people who use climate information to make management decisions."  
 
