@@ -156,9 +156,8 @@ Overview of the Weather Map (Including layers for temperatures, precipitation, s
 Trend line showing the pattern of frost dates for last 21 years (including trend line for temperatures, precipitation, and snowfall)
 Correlation visual displaying the relationship or impact of temperatures/precipitation/snowfall on last frost date results (Including accuracy score, etc)
 
-![Dashboard Example](https://user-images.githubusercontent.com/96395120/171072901-0d1f7073-a139-417e-ad6f-38b752e2c41b.png)
+![Dashboard Mockup](https://user-images.githubusercontent.com/96395120/171311148-4a497769-4bcc-4d9c-9735-13b2eb419770.png)
 
-The next slide provides an example of what we expect our dashboard to look like. Our tool will be in English and take user input, but otherwise we want it to look and behave very much like the example, which can also be found here: https://public.tableau.com/app/profile/merlijn.buit/viz/KNMITemperatures1901-2015AllWeatherStationsfromTheNetherlands/Story1
 #### Description of the Dashboard Tool(s)
 Tableau is giving me a hard time and I’ve not been able to get the map we need with our lat/long data, and I’m making slow progress figuring out what the problem is. I still might refresh myself on mapbox/leaflet and do that instead.
 #### Description of interactive element(s)
