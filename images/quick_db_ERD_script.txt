@@ -91,5 +91,19 @@ first_freeze_date
 first_freeze_dayofyear
 observations_recorded_april_to_may
 
-
+all_stations_yearly_metrics
+-
+obs_year pk
+coldest_dayofyear
+hottest_dayofyear
+last_freeze_date
+last_freeze_dayofyear
+first_freeze_date
+first_freeze_dayofyear
+observations_recorded_april_to_may
+avg_last_freeze_dayofyear
+avg_last_freeze_date
+median_last_freeze_dayofyear
+median_last_freeze_date
+station_count
 
