@@ -12,21 +12,6 @@ This has API calls for pulling station data via JSON in a geographic area.  You 
 
 - **MultiStnData** web services call returns data for multiple stations.  FIPS Codes for 7 county metro:  [27053,27037,27019,27139,27123,27163,27003]
 
-## NOAA.GOV Station Data -https://www.ncei.noaa.gov
-
-This site provides the ability to download files in CSV or JSON formats.  We downloaded some stations with relevant weather information to build our model. To get all of the files we need to download all stations in the counties we want to include with our project or we can build an API call the source site for this data at 
-
-### Links for 7-county metro on NOAA.gov
-
-- https://www.ncei.noaa.gov/access/past-weather/Ramsey%20County%2C%20Minnesota
-- https://www.ncei.noaa.gov/access/past-weather/Hennepin%20County%2C%20Minnesota
-- https://www.ncei.noaa.gov/access/past-weather/Washington%20County%2C%20Minnesota
-- https://www.ncei.noaa.gov/access/past-weather/Anoka%20County%2C%20Minnesota
-- https://www.ncei.noaa.gov/access/past-weather/Carver%20County%2C%20Minnesota
-- https://www.ncei.noaa.gov/access/past-weather/Dakota%20County%2C%20Minnesota
-- https://www.ncei.noaa.gov/access/past-weather/Scott%20County%2C%20Minnesota
-
-
 ### Other interesting data sources if needed
 
 **This has daily weather csv file that can be downloaded through API
