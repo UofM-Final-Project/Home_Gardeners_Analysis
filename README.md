@@ -102,13 +102,13 @@ To be able to classify a day with frost the observation data was used as a train
 
 ###  Explanation of model choice
 
+- We decided to use a logistical regression model to first see if the model could classify a day with freezing conditions based on the weather features.
 ![Frost_obs_doy](https://user-images.githubusercontent.com/56700719/171307931-f8ad3cc2-a384-46a4-8f35-f71f13d5822e.JPG)
 
-- We decided to use a logistical regression model to first see if the model could classify a day with freezing conditions based on the weather features.
-
-![avg_fit_line](https://user-images.githubusercontent.com/56700719/171308288-fde4ea21-319b-4c7f-bdfc-b6df9fe2294a.JPG)![Min_fit_line](https://user-images.githubusercontent.com/56700719/171308325-21706a2f-b886-4908-9c74-1987c00d4800.JPG)
-
 - Next, we wanted to show how using one feature can change predicting a day of the year that will be below freezing. By using linear regression, two models were created to show two different trends based off different features.
+![avg_fit_line](https://user-images.githubusercontent.com/56700719/171308288-fde4ea21-319b-4c7f-bdfc-b6df9fe2294a.JPG)
+![Min_fit_line](https://user-images.githubusercontent.com/56700719/171308325-21706a2f-b886-4908-9c74-1987c00d4800.JPG)
+
 
 ![first_predict](https://user-images.githubusercontent.com/56700719/171308415-87ee9025-0895-465f-b0cb-f24fd69f53ca.JPG)
 ![second_predict](https://user-images.githubusercontent.com/56700719/171308424-a8094bc4-3c44-476a-91d3-105c2af557b3.JPG)
