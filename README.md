@@ -51,9 +51,9 @@ Measurements with “T” (trace) set to 0.
 **Calculations**
 
 Following our data cleaning step, we created several calculated values for dashboard charts/graphs and machine learning, and exported the data.  
-- Used Python Pandas scripts to create 6 tables in PostgreSQL and export to CSV (for testing purposes)
+- Used Python Pandas scripts to create 7 tables in PostgreSQL and export to CSV (for testing purposes)
 - Tables station, observation, county_lookup have the source data plus calculated columns for ML and reporting
-- Tables station_yearly, county_metrics, county_yearly_metrics are reporting data tables created from source data and calculations
+- Tables station_yearly, county_metrics, county_yearly_metrics, all_stations_yearly_metrics are reporting data tables created from source data and calculations
 - View v_days_until_freeze_calcs_0_to_180_days is a calculated dataset for ML.  Below is an image of the query for this view:
 
 ![view](https://github.com/UofM-Final-Project/Home_Gardeners_Analysis/blob/main/images/v_days_until_freeze_calcs_0_to_180_days.PNG)
@@ -61,11 +61,11 @@ Following our data cleaning step, we created several calculated values for dashb
 **Full column descriptions of the tables and view can be found [HERE](https://github.com/UofM-Final-Project/Home_Gardeners_Analysis/blob/main/resources/column_descriptions.xlsx)**
 
 **ERD**
-![ERD](https://github.com/UofM-Final-Project/Home_Gardeners_Analysis/blob/main/images/quick_db_ERD.png)
+![ERD](https://github.com/UofM-Final-Project/Home_Gardeners_Analysis/blob/main/images/quickdbd-export.png)
 
 
 ## Description of the Analysis Phase
-The analysis phase consisted of creating 6 tables and one view using PGadmin to prepare our data for the machine learning model. The tables created are described above.  The combined data was used to train and test our machine learning model.  
+The analysis phase consisted of creating 7 tables and one view using PGadmin to prepare our data for the machine learning model. The tables created are described above.  The combined data was used to train and test our machine learning model.  
 
 Using Jupyter Notebook, the data was imported, Features (X) was separated from the Target (y).  After we split our data into training and testing, we used a Logistic Regression Machine Learning Model to make predictions for the data using 1 for “Freeze” and 0 for “No Freeze”.  
 
