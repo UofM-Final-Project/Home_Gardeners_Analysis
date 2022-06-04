@@ -1,6 +1,6 @@
 # Data Sources Notes
 
-We can pull data from RCC-ACIS.ORG and NOAA.GOV.  We will likely only use RCC-ACIS.ORG for our final data.  The other site is a convenient way for the team to download practice data while we build out the python/pandas script to import, clean and export the weather data.
+We can pull daily observation data from RCC-ACIS.ORG 
 
 ## RCC-ACIS.ORG Website - http://www.rcc-acis.org/docs_webservices.html
 
@@ -14,7 +14,7 @@ This has API calls for pulling station data via JSON in a geographic area.  You 
 
 ### Other interesting data sources if needed
 
-**This has daily weather csv file that can be downloaded through API
+This has daily weather csv file that can be downloaded through API
 https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt
 
 This set of data uses county codes based on a standard format called **FIPS** - Federal Information Processing Standard. One source of FIPS data is here https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt
