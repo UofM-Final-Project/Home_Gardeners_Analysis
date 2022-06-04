@@ -141,6 +141,7 @@ Correlation visual displaying the relationship or impact of temperatures/precipi
 ![Dashboard Mockup](https://user-images.githubusercontent.com/96395120/171311148-4a497769-4bcc-4d9c-9735-13b2eb419770.png)
 
 #### Description of the Dashboard Tool(s)
-Tableau is giving me a hard time and I’ve not been able to get the map we need with our lat/long data, and I’m making slow progress figuring out what the problem is. I still might refresh myself on mapbox/leaflet and do that instead.
+Flask, Matplotlib, Leaflet, and Mapbox are the technologies we've used for the Dashboard.
+
 #### Description of interactive element(s)
-Our intention is to allow a user to input a location or a date and our machine learning will return the likelihood of a frost event. Additionally, users will be able interact with our map and graphs to discover historical weather data.
+The dashboard will allow a user to drill into the county or specific observation station and see metrics and charts based on the specific subset of data.  
