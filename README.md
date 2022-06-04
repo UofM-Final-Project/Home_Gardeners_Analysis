@@ -1,9 +1,9 @@
-# Spring Last Freeze Date Analysis
+# Spring Last Freeze Date Analysis 
+*(Readme updated for Deliverable 3)*
+
 Pull historical weather data, geoJSON county data, and elevations and pinpoint last freeze dates and build a model to predict future dates possibly by weather pattern.
 
 Presentation of Project Deliverable #2 - [Last Freeze Date Analysis Google Slides](https://docs.google.com/presentation/d/1R1opOJd2KfH-3Pl5fK3_diW3ohS4WUmtNrZGHm76p1Y/edit?usp=sharing)
-
-[Project Task Tracking](https://docs.google.com/spreadsheets/d/1ZoLBoF6YWwwI8pchYqjiukvkFyxpKM1p/edit#gid=1215908384)
 
 ## Project Description
 Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data and observation station data to pinpoint last freeze dates in order to build a model to predict future last freeze dates in the region based.  We were able to find historical data available [here](http://www.rcc-acis.org/docs_webservices.html) in a JSON format.  As documented on their website, "The Applied Climate Information System (ACIS) was developed and is maintained by the NOAA Regional Climate Centers (RCCs). It was designed to manage the complex flow of information from climate data collectors to the end users of climate data information. The main purpose of ACIS is to alleviate the burden of climate information management for people who use climate information to make management decisions."  
@@ -71,25 +71,7 @@ Using Jupyter Notebook, the data was imported, Features (X) was separated from t
 
 Accuracy score tests was run multiple times with different iteration of the initial CSV file to find the most accurate score. Our initial accuracy score was 65% but after iterations, our model's accuracy increased to 99%. 
 
-### Group Communication Protocols
-- We communicated regularly using Slack and held weekly meeting via Zoom.
-- We shared resources, research, code snippets and role updates via slack and github.
-- We prepared [Project Tracker](https://docs.google.com/spreadsheets/d/1ZoLBoF6YWwwI8pchYqjiukvkFyxpKM1p/edit?usp=sharing&ouid=114381711604427366207&rtpof=true&sd=true) to monitor completion of tasks and schedule due dates.
-
-#### Team Roles
-##### Will:
-- (square) Responsible for the repository.  
-- (circle) Continue with analysis and created visuals to accompany the data story
-##### Bree: 
-- (Triangle) Created a mockup of the machine learning model. Bree created a diagram that explained how it will work concurrently with the rest of the project steps.
-##### Chris:
-- (Circle) Created a mockup of the database with a set of sample data data. 
-- Chris ensured the database worked seamlessly with the rest of the project.
-##### Amy: 
-- (X Role) Decided which technologies will be used for each step of the project.
-- Cleaned data from source files
-
-# Machine Learning Notes
+# Machine Learning
 
 ### Description of preliminary data preprocessing 
 We used the observed weather conditions from different weather stations around the twin cities.
