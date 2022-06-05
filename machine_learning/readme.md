@@ -22,12 +22,11 @@ To be able to classify a day with frost the observation data was used as a train
 ![Min_fit_line](https://user-images.githubusercontent.com/56700719/171308325-21706a2f-b886-4908-9c74-1987c00d4800.JPG)
 
 - The last model is used to predict the last day for frost in 2023 for user entered county
-
-![last_frost_graph](https://user-images.githubusercontent.com/56700719/172070763-d026ef63-676b-4b94-a03d-c280a04ed739.JPG)
+![predict_Hennepin](https://user-images.githubusercontent.com/56700719/172070749-d1bf1567-6b24-439c-ac58-ab9eb41c8cd4.JPG)
 
 - Visualizations and then testing model's coefficient to show accuracy.
 
-![predict_Hennepin](https://user-images.githubusercontent.com/56700719/172070749-d1bf1567-6b24-439c-ac58-ab9eb41c8cd4.JPG)
+![last_frost_graph](https://user-images.githubusercontent.com/56700719/172070763-d026ef63-676b-4b94-a03d-c280a04ed739.JPG)
 
 ![test_coefficient](https://user-images.githubusercontent.com/56700719/172070772-0b940852-78ea-41be-88f6-c9464567eab0.JPG)
 
