@@ -1,0 +1,109 @@
+station
+-
+station_uid pk
+name
+county
+state
+latitude
+longitude
+climdiv
+avg_last_freeze_dayofyear
+avg_last_freeze_mm_dd
+median_last_freeze_dayofyear
+median_last_freeze_mm_dd
+years_included
+count_at_or_before_avg_last_freeze
+count_later_than_avg_last_freeze
+
+observation
+-
+station_uid pk fk -< station.station_uid
+date pk
+maxt
+mint
+pcpn
+snow
+snwd
+avgt
+freeze_day
+above_freezing
+obs_year
+obs_month
+obs_day
+obs_dayofyear
+maxt_7_day
+mint_7_day
+avgt_7_day
+precip_7_day
+obs_count_7_day
+maxt_30_day
+mint_30_day
+avgt_30_day
+precip_30_day
+obs_count_30_day
+
+station_yearly
+-
+station_uid pk fk -< station.station_uid
+obs_year pk 
+coldest_day
+coldest_dayofyear
+hottest_day
+hottest_dayofyear
+last_freeze_date
+last_freeze_dayofyear
+first_freeze_date
+first_freeze_dayofyear
+observations_recorded_april_to_may
+
+county_lookup
+-
+county_code pk
+state
+county_name
+
+county_metrics
+-
+county pk
+county_name
+station_count
+avg_last_freeze_dayofyear
+avg_last_freeze_mm_dd
+median_last_freeze_dayofyear
+median_last_freeze_mm_dd
+years_included
+count_at_or_before_avg_last_freeze
+count_later_than_avg_last_freeze
+
+county_yearly_metrics
+-
+county pk
+obs_year pk
+county_name
+station_count
+coldest_day
+coldest_dayofyear
+hottest_day
+hottest_dayofyear
+last_freeze_date
+last_freeze_dayofyear
+first_freeze_date
+first_freeze_dayofyear
+observations_recorded_april_to_may
+
+all_stations_yearly_metrics
+-
+obs_year pk
+coldest_dayofyear
+hottest_dayofyear
+last_freeze_date
+last_freeze_dayofyear
+first_freeze_date
+first_freeze_dayofyear
+observations_recorded_april_to_may
+avg_last_freeze_dayofyear
+avg_last_freeze_date
+median_last_freeze_dayofyear
+median_last_freeze_date
+station_count
+
