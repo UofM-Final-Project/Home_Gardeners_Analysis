@@ -91,17 +91,23 @@ To be able to classify a day with frost the observation data was used as a train
 ![avg_fit_line](https://user-images.githubusercontent.com/56700719/171308288-fde4ea21-319b-4c7f-bdfc-b6df9fe2294a.JPG)
 ![Min_fit_line](https://user-images.githubusercontent.com/56700719/171308325-21706a2f-b886-4908-9c74-1987c00d4800.JPG)
 
-- The last model puts those two features together and uses linear regression to create a best fit line and predict the day of the year in which an average temp and minimum temp (around freezing) will occur.
-![first_predict](https://user-images.githubusercontent.com/56700719/171308415-87ee9025-0895-465f-b0cb-f24fd69f53ca.JPG)
-![second_predict](https://user-images.githubusercontent.com/56700719/171308424-a8094bc4-3c44-476a-91d3-105c2af557b3.JPG)
-![predict_coefficient](https://user-images.githubusercontent.com/56700719/171308427-2d387fa1-971f-4da7-8628-b082304aab63.JPG)
+- The last model is used to predict the last day for frost in 2023 for user entered county
+![predict_Hennepin](https://user-images.githubusercontent.com/56700719/172070749-d1bf1567-6b24-439c-ac58-ab9eb41c8cd4.JPG)
+
+- Visualizations and then testing model's coefficient to show accuracy.
+
+![last_frost_graph](https://user-images.githubusercontent.com/56700719/172070763-d026ef63-676b-4b94-a03d-c280a04ed739.JPG)
+
+![test_coefficient](https://user-images.githubusercontent.com/56700719/172070772-0b940852-78ea-41be-88f6-c9464567eab0.JPG)
 
 
 ### Each Program Specifics
 
 - Linear_min_vs_avg.ipynb -> Creates two models using linear regression to show the difference between average temp and minimum temp with their corresponding day of the year.
 
-- Linear_Predict_day.ipynb -> Creates model to try and predict the day of the year in which specific average and minimum temp take place.
+- Linear_County_Frost.ipynb -> This notebook creates several models to visualize and then test model's coefficient to show accuracy.
+
+- predictCountyFrostDay.ipynb -> Creates model to be used to predict the last day for frost in 2023 for user entered county.
 
 - Logistic_classify_day.ipynb -> Creates model to classify a day with frost based on past weather conditions.
 
