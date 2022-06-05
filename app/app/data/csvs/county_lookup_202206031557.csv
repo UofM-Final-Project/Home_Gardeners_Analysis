@@ -1,0 +1,88 @@
+state,county_code,county_name
+QQ,27001,Aitkin County
+WW,27003,Anoka County
+EE,27005,Becker County
+RR,27007,Beltrami County
+TT,27009,Benton County
+YY,27011,Big Stone County
+UU,27013,Blue Earth County
+II,27015,Brown County
+OO,27017,Carlton County
+PP,27019,Carver County
+AA,27021,Cass County
+SS,27023,Chippewa County
+DD,27025,Chisago County
+FF,27027,Clay County
+GG,27029,Clearwater County
+HH,27031,Cook County
+JJ,27033,Cottonwood County
+KK,27035,Crow Wing County
+LL,27037,Dakota County
+ZZ,27039,Dodge County
+XX,27041,Douglas County
+CC,27043,Faribault County
+VV,27045,Fillmore County
+BB,27047,Freeborn County
+NN,27049,Goodhue County
+MM,27051,Grant County
+QA,27053,Hennepin County
+QS,27055,Houston County
+QD,27057,Hubbard County
+QF,27059,Isanti County
+QG,27061,Itasca County
+QH,27063,Jackson County
+QJ,27065,Kanabec County
+QK,27067,Kandiyohi County
+QL,27069,Kittson County
+WA,27071,Koochiching County
+WS,27073,Lac qui Parle County
+WD,27075,Lake County
+WF,27077,Lake of the Woods County
+WG,27079,Le Sueur County
+WH,27081,Lincoln County
+WJ,27083,Lyon County
+WK,27085,McLeod County
+WL,27087,Mahnomen County
+EA,27089,Marshall County
+ES,27091,Martin County
+ED,27093,Meeker County
+EF,27095,Mille Lacs County
+EG,27097,Morrison County
+EH,27099,Mower County
+EJ,27101,Murray County
+EK,27103,Nicollet County
+EL,27105,Nobles County
+RA,27107,Norman County
+RS,27109,Olmsted County
+RD,27111,Otter Tail County
+RF,27113,Pennington County
+RG,27115,Pine County
+RH,27117,Pipestone County
+RJ,27119,Polk County
+RK,27121,Pope County
+RL,27123,Ramsey County
+TA,27125,Red Lake County
+TS,27127,Redwood County
+TD,27129,Renville County
+TF,27131,Rice County
+TG,27133,Rock County
+TH,27135,Roseau County
+TJ,27137,St. Louis County
+TK,27139,Scott County
+TL,27141,Sherburne County
+YA,27143,Sibley County
+YS,27145,Stearns County
+YD,27147,Steele County
+YF,27149,Stevens County
+YH,27151,Swift County
+GY,27153,Todd County
+YJ,27155,Traverse County
+YK,27157,Wabasha County
+YL,27159,Wadena County
+UA,27161,Waseca County
+US,27163,Washington County
+UD,27165,Watonwan County
+UF,27167,Wilkin County
+UG,27169,Winona County
+UH,27171,Wright County
+UJ,27173,Yellow Medicine County

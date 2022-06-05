@@ -1,0 +1,7 @@
+county,obs_year,county_name,station_count,coldest_day,coldest_dayofyear,hottest_day,hottest_dayofyear,last_freeze_date,last_freeze_dayofyear,first_freeze_date,first_freeze_dayofyear,observations_recorded_april_to_may
+27037,2018,Dakota County,3,-23,47,100,157,2021-05-11 00:00:00.000,131,2021-10-22 00:00:00.000,295,227
+27117,2019,Dakota County,3,-18,45,97,161,2020-05-12 00:00:00.000,133,2020-10-03 00:00:00.000,277,160
+27057,2020,Dakota County,3,-22,26,96,133,2022-04-28 00:00:00.000,118,2020-10-03 00:00:00.001,278,137
+27413,2021,Hennepin County,5,-23,46,100,156,2021-05-11 00:00:00.000,131,2021-10-17 00:00:00.000,290,455
+27563,2022,Hennepin County,5,-16,45,97,160,2020-05-12 00:00:00.000,133,2020-10-04 00:00:00.000,278,454
+27053,2023,Hennepin County,5,-21,7,93,132,2022-04-28 00:00:00.000,118,,,230
