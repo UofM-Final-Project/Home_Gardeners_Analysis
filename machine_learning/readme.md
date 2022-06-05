@@ -20,11 +20,14 @@ To be able to classify a day with frost the observation data was used as a train
 
 - Next, we wanted to show how using one feature can change predicting a day of the year that will be below freezing. By using linear regression, two models were created to show two different trends based off different features.
 
-![first_predict](https://user-images.githubusercontent.com/56700719/171308415-87ee9025-0895-465f-b0cb-f24fd69f53ca.JPG)
-![second_predict](https://user-images.githubusercontent.com/56700719/171308424-a8094bc4-3c44-476a-91d3-105c2af557b3.JPG)
-![predict_coefficient](https://user-images.githubusercontent.com/56700719/171308427-2d387fa1-971f-4da7-8628-b082304aab63.JPG)
 
-- The last model puts those two features together and uses linear regression to create a best fit line and predict the day of the year in which an average temp and minimum temp (around freezing) will occur.
+![last_frost_graph](https://user-images.githubusercontent.com/56700719/172070763-d026ef63-676b-4b94-a03d-c280a04ed739.JPG)
+
+- The last model is used to predict the last day for frost in 2023 for user entered county with visualizations and then test model's coefficient to show accuracy.
+
+![predict_Hennepin](https://user-images.githubusercontent.com/56700719/172070749-d1bf1567-6b24-439c-ac58-ab9eb41c8cd4.JPG)
+
+![test_coefficient](https://user-images.githubusercontent.com/56700719/172070772-0b940852-78ea-41be-88f6-c9464567eab0.JPG)
 
 
 ### Each Program Specifics
