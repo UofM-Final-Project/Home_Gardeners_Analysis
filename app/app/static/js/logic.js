@@ -2,18 +2,18 @@
 console.log("working");
 
 // Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([34.0522, -118.2437], 4);
+let map = L.map('mapid').setView([46.7296, 94.6859], 4);
 
-// Get data from cities.js
-let cityData = cities;
+// Get data from counties.js
+let countyData = counties;
 
- // Loop through the cities array and create one marker for each city.
-cityData.forEach(function(city) {
-    console.log(city)
-    L.circleMarker(city.location, {
-        radius: city.population/100000
+ // Loop through the counties array and create one marker for each county.
+countyData.forEach(function(county) {
+    console.log(county)
+    L.circleMarker(county.location, {
+        radius: county.avg_last_freeze_dayofyear/100000
     })
-    .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
+    .bindPopup("<h2>" + county.county + ", " + county.state + "</h2> <hr> <h3>Average Last Freeze Date" + county.avg_last_freeze_dayofyear.toLocaleString() + "</h3>")
   .addTo(map);
 });
 
