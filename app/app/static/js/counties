@@ -1,0 +1,44 @@
+// An array containing each city's location, state, and population.
+let cities = [{
+    location: [40.167950, -92.358429],
+    County: "Hennepin County",
+    State: "MN",
+    Last Freeze Date: 0000
+  },
+  {
+    location: [40.717869, -86.278923],
+    County: "Anoka County",
+    State: "MN",
+    Last Freeze Date: 0000
+  },
+  {
+    location: [30.802510, -82.870760],
+    County: "Carver County",
+    State: "MN",
+    Last Freeze Date: 2325502
+  },
+  {
+    location: [44.735291, -118.2437],
+    County: "Dakota County",
+    State: "MN",
+    Last Freeze Date: 0000
+  },
+  {
+    location: [48.006770, -98.552610],
+    county: "Ramsey County",
+    state: "MN",
+    last_freeze_date: 0000
+  }
+  {
+    location: [32.228271, -89.471764],
+    county: "Scott County",
+    state: "MN",
+    last_freeze_date: 0000
+  }
+  {
+    location: [36.728722, -81.921509],
+    county: "Washington County",
+    state: "MN",
+    last_freeze_date: 0000
+  }
+  ];
