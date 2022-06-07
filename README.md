@@ -3,10 +3,10 @@
 
 Pull historical weather data, geoJSON county data, and elevations and pinpoint last freeze dates and build a model to predict future dates possibly by weather pattern.
 
-Presentation of Project Deliverable #2 - [Last Freeze Date Analysis Google Slides](https://docs.google.com/presentation/d/1R1opOJd2KfH-3Pl5fK3_diW3ohS4WUmtNrZGHm76p1Y/edit?usp=sharing)
+Presentation [Last Freeze Date Analysis Google Slides](https://docs.google.com/presentation/d/1R1opOJd2KfH-3Pl5fK3_diW3ohS4WUmtNrZGHm76p1Y/edit?usp=sharing)
 
 ## Project Description
-Amy inquired with a horticulturist who runs a decent sized FB group for Minnesota gardeners about what might be a topic that would be useful for home gardeners. She said that there is great debate on actual last frost dates in the region. She found no consensus amongst local experts.  We plan to pull historical weather data and observation station data to pinpoint last freeze dates in order to build a model to predict future last freeze dates in the region based.  We were able to find historical data available [here](http://www.rcc-acis.org/docs_webservices.html) in a JSON format.  As documented on their website, "The Applied Climate Information System (ACIS) was developed and is maintained by the NOAA Regional Climate Centers (RCCs). It was designed to manage the complex flow of information from climate data collectors to the end users of climate data information. The main purpose of ACIS is to alleviate the burden of climate information management for people who use climate information to make management decisions."  
+According to a local Horticulturist, average last freeze dates in the Twin Cities region is debated between experts. There is currently no consensus on the average last freeze date. In our project, we pull historical weather data and observation station data to pinpoint last freeze dates in order to build a model to predict future last freeze dates in the region based.  We were able to find historical data available [here](http://www.rcc-acis.org/docs_webservices.html) in a JSON format.  As documented on their website, "The Applied Climate Information System (ACIS) was developed and is maintained by the NOAA Regional Climate Centers (RCCs). It was designed to manage the complex flow of information from climate data collectors to the end users of climate data information. The main purpose of ACIS is to alleviate the burden of climate information management for people who use climate information to make management decisions."  
 
 ### Questions To Answer
 - What has been the historical average last freeze date?
@@ -15,6 +15,8 @@ Amy inquired with a horticulturist who runs a decent sized FB group for Minnesot
 
 ## Data Exploration Phase
 In efforts to understand the historical weather data available within the dataset and identify which values would be ideal for the Machine Learning Model, we pulled in data in JSON and CSV formats. The dataset contains daily 21 years of weather observations from the 7 counties that make up the Twin Cities metro.  After cleaning the data, we have 27 observation stations with 126,400 rows of observation data containing the following: Observation Date, Average Degrees, Maximum Degrees, Minimum Degrees, Precipitation, Snowfall and Snow depth.  We transformed and cleaned data using Python Pandas in Jupyter Notebook. We also created a Minnesota counties lookup table from a US Census CSV file to provide county names where the weather data only provided county codes.
+
+View the Scripts Readme [here](https://github.com/UofM-Final-Project/Home_Gardeners_Analysis/blob/main/scripts/readme.md) for information on how to setup your environment.
 
 ### Detailed Source Information
 **Weather Data** - Primary data source for historical data formatted in JSON retrieved via API
