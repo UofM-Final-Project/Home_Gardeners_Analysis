@@ -1,3 +1,0 @@
-"county_name","county","station_count","avg_last_freeze_dayofyear","avg_last_freeze_mm_dd","median_last_freeze_dayofyear","median_last_freeze_mm_dd","years_included","count_at_or_before_avg_last_freeze","count_later_than_avg_last_freeze"
-Dakota County,27037,3,127.0,"05/07",131.0,"05/11",3,1,2
-Hennepin County,27053,5,127.0,"05/07",131.0,"05/11",3,1,2
